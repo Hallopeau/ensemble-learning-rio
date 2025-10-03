@@ -1,5 +1,3 @@
-# BALISE: Data Balancing for Informal Settlement Mapping with Ensembles
-
 This repository contains the code associated with the scientific publication: 
 **"Addressing Data Imbalance in Urban Informal Settlement Mapping from Earth Observation Using Ensemble Learning: A Case Study in Rio de Janeiro"**
 
@@ -8,9 +6,17 @@ This repository contains the code associated with the scientific publication:
 - `2_feature_engineering/` → Feature extraction and engineering 
 - `3_modeling/` → Training and inference results 
 
-## 🚀 How to Use
-Run the Jupyter notebooks in the given order to reproduce the analysis.
-
 ## 📄 Citation
-If you use this code, please cite the paper: 
-_"Addressing Data Imbalance in Urban Informal Settlement Mapping from Earth Observation Using Ensemble Learning: A Case Study in Rio de Janeiro"_ (Hallopeau et al, 2025).
+If you use this code or build upon this work, please cite:
+
+```bibtex
+@article{hallopeau2025balise,
+  title   = {Addressing Data Imbalance in Urban Informal Settlement Mapping from Earth Observation Using Ensemble Learning: A Case Study in Rio de Janeiro},
+  author  = {Hallopeau, Thomas and Fouzai, Youssef and Demagistri, Laurent and Guérin, Joris and de Matos, Vanderlei Pascoal and Gracie, Renata and Gurgel, Helen and Barcellos, Christovam and Dessay, Nadine},
+  journal = {Science of Remote Sensing},
+  volume  = {12},
+  pages   = {100273},
+  year    = {2025},
+  doi     = {10.1016/j.srs.2025.100273},
+  url     = {https://doi.org/10.1016/j.srs.2025.100273}
+}
